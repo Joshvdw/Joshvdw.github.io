@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/main.css">
+    <title>HTML & CSS Blog</title>
+</head>
+<body>
+    <header>
+        <h1 class="header-text">Josh van der Waay's Blog</h1>
+        <nav>
+            <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a class="active" href="html-css.html">HTML & CSS</a></li>
+            <li><a href="blog/html-css.html">Blog 2</a></li>
+            <li><a href="blog/html-css.html">Blog 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <div class="title">
+        <h1>HTML & CSS</h1>
+    </div>
+        
+    <div class="main-text">
+        <h3>What is the difference between Margin, Border, and Padding?</h3><br>
+        <p>In this blog I'll be explaining (in plain English) the difference is between these css attributes.</p>
+        <p>All of these attributes relate to the "box-model", which is essentially an invisible box that wraps around every HTML element.</p>
+        <p>Manipulating the box-model is how a developer structures & styles the layout of <em>content</em>.</p>
+        <p>Now to break down the difference between margin, border & padding, let's first start with margin - which is the outermost attribute of the box-model.</p>
+        <p><b>Margin</b> measures the space on the <em>outside</em> of the box-model.</p>
+        <p><b>Border</b> is the outline or <em>stroke</em> of the box-model.</p>
+        <p><b>Padding</b> measure the space on the <em>inside</em> of the box-model.</p>
+        <p>Although all these attributes can be given a width or height in pixels or percentages, they all target a different area of the box-model (as pictured across).</p>
+
+    </div>
+
+    <div class="main-img">
+        <img src="../images/html-css.png" alt="Example Image">  
+        <p style="color:grey; font-size: .8em; margin-top: 5px;"><em>Diagram of the "box-model"</em></p>
+    </div>
+
+    </main>
+
+    
+</body>
+</html>
