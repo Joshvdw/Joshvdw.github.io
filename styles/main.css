@@ -121,3 +121,58 @@ li a:hover {
 .main-text-learning-plan h3 {
     margin-top: 10px;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1210px) {
+
+    body {
+        width: 90%;
+    }
+    nav {
+        width: 60%;
+    }
+
+    .main-text {
+        width: 100%;
+    }
+    .main-img {
+        width: 50%;
+        padding-left: 0;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    body {
+        width: 95%;
+    }
+
+    nav {
+        width: 70%;
+    }
+
+    .header-text {
+        font-size: 250%;
+    }
+
+    main {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 726px) {
+    nav {
+        width: 80%;
+        font-size: 60%;
+    }
+
+    .header-text {
+        font-size: 180%;
+    }
+
+    .main-img {
+        width: 90%;
+    }
+}
