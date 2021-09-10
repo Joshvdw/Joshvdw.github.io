@@ -29,7 +29,6 @@ main {
     padding: 50px;
     background-color: #fff5f0;
     border-radius: 5px; 
-    width: 90%;
     margin: 25px auto;
     height: 100%;
     display: flex;
@@ -45,16 +44,17 @@ main p {
 }
 
 nav {
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
+    font-size: .8em;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     overflow: hidden;
 }
 
-li {
+nav li {
     float: left;
 }
 
@@ -85,7 +85,6 @@ li a:hover {
 
 .main-text {
     width: 60%;
-    /* font-size: .8em; */
 }
 
 .main-img {
@@ -96,4 +95,29 @@ li a:hover {
 .main-img img {
     width: 100%;
     margin: 0 auto;
+}
+
+.learning-plan-container,
+.learning-plan-header,
+.learning-plan-nav,
+.learning-plan-nav li a{
+    background-color: #fafdff;
+    color: #85b6e6;
+}
+
+.identity-value-container,
+.identity-value-header,
+.identity-value-nav,
+.identity-value-nav li a {
+    background-color: #effff4;
+    color: #64cf8f;
+}
+
+.learning-plan-list li {
+    margin-left: 50px;
+    padding-bottom: 25px;
+}
+
+.main-text-learning-plan h3 {
+    margin-top: 10px;
 }
