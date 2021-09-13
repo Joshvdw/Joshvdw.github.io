@@ -113,6 +113,14 @@ li a:hover {
     color: #64cf8f;
 }
 
+.emotional-container,
+.emotional-header,
+.emotional-nav,
+.emotional-nav li a {
+    background-color: #eae4f7;
+    color: #926dbe;
+}
+
 .learning-plan-list li {
     margin-left: 50px;
     padding-bottom: 25px;
