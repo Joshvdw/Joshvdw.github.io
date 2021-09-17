@@ -121,6 +121,14 @@ li a:hover {
     color: #926dbe;
 }
 
+.javascript-container,
+.javascript-header,
+.javascript-nav,
+.javascript-nav li a {
+    background-color: #fffef0;
+    color: #ecc526;
+}
+
 .learning-plan-list li {
     margin-left: 50px;
     padding-bottom: 25px;
