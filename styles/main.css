@@ -18,6 +18,16 @@ header {
     text-align: center;
     padding: 50px 0;
     text-transform: uppercase;
+    position: fixed;
+    top: 0;
+    width: 80%;
+}
+
+.spacer {
+    width: 100%;
+    height: 50px;
+    margin-top: 60px;
+    background-color:#FFFBF1;
 }
 
 .header-text {
@@ -33,7 +43,8 @@ main {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-}
+    margin-top: 300px;
+} 
 
 main h1 {
     margin-bottom: 25px;
@@ -44,7 +55,7 @@ main p {
 }
 
 nav {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     font-size: .8em;
 }
@@ -52,6 +63,8 @@ nav {
 nav ul {
     list-style-type: none;
     overflow: hidden;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav li {
@@ -72,6 +85,16 @@ li a:hover {
 
 .active {
     text-decoration: underline;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-1 {
+    flex: 1;
+    padding-right: 25px;
 }
 
 #img-container img{
@@ -125,12 +148,12 @@ li a:hover {
 .javascript-header,
 .javascript-nav,
 .javascript-nav li a {
-    background-color: #fffef0;
+    background-color: #fffffd;
     color: #ecc526;
 }
 
 .learning-plan-list li {
-    margin-left: 50px;
+    margin-left: 15px;
     padding-bottom: 25px;
 }
 
@@ -146,7 +169,7 @@ li a:hover {
         width: 90%;
     }
     nav {
-        width: 60%;
+        width: 90%;
     }
 
     .main-text {
@@ -165,10 +188,6 @@ li a:hover {
         width: 95%;
     }
 
-    nav {
-        width: 70%;
-    }
-
     .header-text {
         font-size: 250%;
     }
@@ -180,7 +199,7 @@ li a:hover {
 
 @media screen and (max-width: 726px) {
     nav {
-        width: 80%;
+        width: 100%;
         font-size: 60%;
     }
 
